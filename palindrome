@@ -1,0 +1,16 @@
+echo "Enter the string"
+read s
+len=`expr length "$s"`
+rev=""
+for((i=0;i<len;i++))
+do
+	ch="${s:$i:1}"
+	rev="$ch${rev}"
+done
+if [ "$rev" == "$s" ]
+then
+	echo "The string is a palindrome string"
+else
+	echo "The string is not a palindrome string"
+fi
+

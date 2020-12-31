@@ -1,0 +1,11 @@
+echo "Enter the filename"
+read f
+find $f
+
+
+
+
+
+
+
+

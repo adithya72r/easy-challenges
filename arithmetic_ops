@@ -1,0 +1,12 @@
+echo -n "Enter two numbers"
+read a
+read b
+((s = $a + $b))
+((d = $b - $a))
+((p = $a * $b))
+((q =$b / $a))
+echo "The sum is " $s
+echo "The difference is " $d
+echo "The product is " $p
+echo "The quotient is " $q
+
